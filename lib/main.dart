@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dio_example/misc/colors.dart';
-import 'package:flutter_dio_example/screens/all_posts_screen/all_posts_screen.dart';
-import 'package:flutter_dio_example/screens/home_screen/home_screen.dart';
-import 'package:flutter_dio_example/screens/post_screen/post_screen.dart';
-import 'package:flutter_dio_example/services/api_service.dart';
+import 'package:flutter_api_example/misc/colors.dart';
+import 'package:flutter_api_example/screens/all_posts_screen/all_posts_screen.dart';
+import 'package:flutter_api_example/screens/home_screen/home_screen.dart';
+import 'package:flutter_api_example/screens/post_screen/post_screen.dart';
+import 'package:flutter_api_example/services/api_service.dart';
 import 'package:provider/provider.dart';
 
 void main() {

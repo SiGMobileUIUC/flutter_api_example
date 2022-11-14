@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dio_example/models/post.dart';
-import 'package:flutter_dio_example/widgets/spacing_widgets.dart';
+import 'package:flutter_api_example/models/post.dart';
+import 'package:flutter_api_example/widgets/spacing_widgets.dart';
 
 class PostCard extends StatelessWidget {
   final Post post;

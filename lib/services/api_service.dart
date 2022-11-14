@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_dio_example/models/comment.dart';
-import 'package:flutter_dio_example/models/post.dart';
+import 'package:flutter_api_example/models/comment.dart';
+import 'package:flutter_api_example/models/post.dart';
 
 class ApiService {
   final Dio _dio = Dio(BaseOptions(baseUrl: 'https://jsonplaceholder.typicode.com'));

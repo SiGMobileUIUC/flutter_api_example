@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dio_example/models/post.dart';
-import 'package:flutter_dio_example/screens/post_screen/comment_widget.dart';
-import 'package:flutter_dio_example/services/api_service.dart';
-import 'package:flutter_dio_example/widgets/loading_indicator.dart';
-import 'package:flutter_dio_example/widgets/spacing_widgets.dart';
+import 'package:flutter_api_example/models/post.dart';
+import 'package:flutter_api_example/screens/post_screen/comment_widget.dart';
+import 'package:flutter_api_example/services/api_service.dart';
+import 'package:flutter_api_example/widgets/loading_indicator.dart';
+import 'package:flutter_api_example/widgets/spacing_widgets.dart';
 import 'package:provider/provider.dart';
 
 class PostScreen extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dio_example/models/comment.dart';
-import 'package:flutter_dio_example/widgets/spacing_widgets.dart';
+import 'package:flutter_api_example/models/comment.dart';
+import 'package:flutter_api_example/widgets/spacing_widgets.dart';
 
 class CommentWidget extends StatelessWidget {
   final Comment comment;

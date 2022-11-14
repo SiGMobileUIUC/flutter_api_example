@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dio_example/screens/all_posts_screen/post_card.dart';
-import 'package:flutter_dio_example/services/api_service.dart';
-import 'package:flutter_dio_example/widgets/loading_indicator.dart';
+import 'package:flutter_api_example/screens/all_posts_screen/post_card.dart';
+import 'package:flutter_api_example/services/api_service.dart';
+import 'package:flutter_api_example/widgets/loading_indicator.dart';
 import 'package:provider/provider.dart';
 
 class AllPostsScreen extends StatelessWidget {
