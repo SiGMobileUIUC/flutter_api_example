@@ -3,10 +3,12 @@ import 'package:flutter_api_example/models/comment.dart';
 import 'package:flutter_api_example/widgets/spacing_widgets.dart';
 
 class CommentWidget extends StatelessWidget {
+  // The comment to display the info of
   final Comment comment;
 
   const CommentWidget({
     super.key,
+    // Require that a comment be provided to this widget
     required this.comment,
   });
 

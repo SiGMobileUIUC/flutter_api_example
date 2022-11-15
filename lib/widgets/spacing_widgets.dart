@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Widget to add consistent vertical spacing across the app
 class VerticalSpacing extends StatelessWidget {
   const VerticalSpacing({super.key});
 
@@ -9,6 +10,7 @@ class VerticalSpacing extends StatelessWidget {
   }
 }
 
+// Widget to add consistent horizontal spacing across the app
 class HorizontalSpacing extends StatelessWidget {
   const HorizontalSpacing({super.key});
 

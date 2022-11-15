@@ -12,6 +12,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: OutlinedButton(
           onPressed: () {
+            // Navigate to all posts screen
             Navigator.of(context).pushNamed('/all-posts');
           },
           child: const Text('Posts Screen'),

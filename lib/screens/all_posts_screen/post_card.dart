@@ -3,10 +3,12 @@ import 'package:flutter_api_example/models/post.dart';
 import 'package:flutter_api_example/widgets/spacing_widgets.dart';
 
 class PostCard extends StatelessWidget {
+  // The post to display the info of
   final Post post;
 
   const PostCard({
     super.key,
+    // Require that a post be provided to this widget
     required this.post,
   });
 
@@ -14,6 +16,8 @@ class PostCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
+        // Navigate to the post screen that displays one post with the argument post so that the new screen knows
+        // what to post to display the data of
         Navigator.of(context).pushNamed('/post', arguments: post);
       },
       child: Card(
