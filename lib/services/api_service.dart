@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:dio/dio.dart';
 import 'package:flutter_api_example/models/comment.dart';
 import 'package:flutter_api_example/models/post.dart';
@@ -18,7 +16,7 @@ class ApiService {
       // Wait for dio to get recieve a response from the server
       final Response response = await _dio.get('/posts');
       // Check if the response status code is OK
-      if (response.statusCode == HttpStatus.ok) {
+      if (response.statusCode == 200) {
         // Convert the response data to a List of JSON objects then convert each JSON object to a Post object and
         // return the List of Post objects
         return (response.data as List).map((element) => Post.fromJson(element)).toList();
@@ -48,7 +46,7 @@ class ApiService {
         queryParameters: {'postId': postId},
       );
       // Check if the response status code is OK
-      if (response.statusCode == HttpStatus.ok) {
+      if (response.statusCode == 200) {
         return (response.data as List).map((element) => Comment.fromJson(element)).toList();
       }
       // If response status code is not OK, throw an exception
